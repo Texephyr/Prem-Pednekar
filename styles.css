@@ -1,0 +1,170 @@
+body{
+    background-color: black;
+}
+
+.title{
+    color:khaki;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+.heading
+{
+    color:white;
+    font-family: Charmonman;
+    display: block;
+        margin-left: 30%;
+        margin-right: auto;
+        width: 50%;
+    font-size: large;
+}
+
+.navbar
+{
+    color: grey;
+    font-style: italic;
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: -2%;
+}
+
+img{
+    margin-top: 5%;
+}
+
+.img1{
+        display: block;
+        margin-left: 8%;
+        width: 650px;
+        height: 450px;
+        transform: rotate(-5deg);
+}
+
+.img2{
+    display: block;
+        margin-left: 48%;
+        margin-top: -10%;
+        width: 650px;
+        height: 450px;
+        transform: rotate(5deg);
+}
+
+.button1
+{
+    margin-left: 70%;
+    position: absolute;
+    top: 40%;
+    height: 40px;
+    width: 40px;
+    font-size: large;
+    font-size: 1cm;
+    color: aliceblue;
+    background-color: black;
+    transform: rotate(3deg);
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 50px;
+  }
+
+.button2
+{
+    margin-left: 30%;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    font-size: large;
+    font-size: 1cm;
+    color: aliceblue;
+    background-color: black;
+    transform: rotate(-2deg);
+}
+
+.button2:hover {
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 50px;
+  }
+
+  .castword{
+    color: antiquewhite;
+    text-align: center;
+  }
+
+  .actorimg
+  {
+      height: 100px;
+      width: 70px;
+      object-fit:cover;
+      border-radius:50%;
+      vertical-align: top;
+  }
+
+  .cast
+  {
+    display: inline-block;
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+
+h2{
+    color: aliceblue;
+    display: block;
+}
+
+.names
+  {
+    display: inline-block;
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+
+  }
+
+
+  .actorimg:hover
+  {
+    box-shadow: 10px 10px 5px 12px grey;
+  }
+
+h1{
+      color: antiquewhite;
+      text-align: center;
+  }
+
+  h3{
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: italic;
+  }
+
+  span{
+      color: burlywood;
+  }
+
+  .Did{
+      text-align: center;
+      font-size: 30px;
+      margin-left: 2%;
+  }
+
+.Songs{
+    text-align: center;
+}
+ 
+.music{
+    text-align: center;
+    color:gainsboro;
+}
+
+iframe{
+    text-align: center;
+    align-items: center;
+    margin-left: 30%;
+}
